@@ -110,7 +110,7 @@ const Home = () => {
 
           <div className='searchOptions flex'>
             <HiFilter className='icon'/>
-            <button onClick={handleSearch}>Search</button>
+            <button onClick={handleSearch} className='bt'>Search</button>
           </div>
         </div>
 
